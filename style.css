@@ -8,10 +8,6 @@ a {
 	text-decoration: none;
 }
 
-body {
-	background: #ffffff;
-}
-
 .orange_text {
 	color: #f25822;
 }
@@ -21,7 +17,7 @@ body {
 	padding-bottom: 40px;
 }
 
-.header_logo {
+.header_logo_text {
 	color: #000;
 	font-family: Gilroy-Bold;
 	font-size: 24px;
@@ -30,19 +26,12 @@ body {
 	line-height: normal;
 }
 
-.header_logo img {
-	padding-right: 14px;
-}
-
-.headear_menu {
+.headear_menu_link {
 	font-family: Gilroy-SemiBold;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-}
-
-.headear_menu_link {
 	color: #000;
 	padding-left: 36px;
 }
@@ -59,6 +48,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+	margin-bottom: 17px;
 }
 
 .top_text {
@@ -68,8 +58,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-	padding-top: 37px;
-	padding-bottom: 37px;
+	margin-bottom: 37px;
 }
 
 .top_buttons {
@@ -96,5 +85,9 @@ body {
 
 .brands {
 	padding-top: 97px;
-	padding-bottom: 96px;
+	padding-bottom: 97px;
+}
+
+.brands_link {
+	display: inline-block;
 }

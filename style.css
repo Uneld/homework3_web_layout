@@ -1,3 +1,24 @@
+@font-face {
+	font-family: "Gilroy-SemiBold";
+	src: url("./fonts/GilroySemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Gilroy-Bold";
+	src: url("./fonts/GilroyBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Gilroy-Medium";
+	src: url("./fonts/GilroyMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 500;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,13 +29,27 @@ a {
 	text-decoration: none;
 }
 
-.orange_text {
-	color: #f25822;
+.center {
+	padding-left: calc(50% - 1170px / 2);
+	padding-right: calc(50% - 1170px / 2);
 }
 
 .header {
 	padding-top: 40px;
 	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_logo {
+	display: flex;
+	gap: 14px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
 }
 
 .header_logo_text {
@@ -26,6 +61,14 @@ a {
 	line-height: normal;
 }
 
+.header_menu {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	gap: 36px;
+}
+
 .headear_menu_link {
 	font-family: Gilroy-SemiBold;
 	font-size: 14px;
@@ -33,12 +76,27 @@ a {
 	font-weight: 400;
 	line-height: normal;
 	color: #000;
-	padding-left: 36px;
+}
+
+.orange_text {
+	color: #f25822;
 }
 
 .top_content {
 	padding-top: 44px;
 	padding-bottom: 162px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top_info {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .top_title {
@@ -62,14 +120,21 @@ a {
 }
 
 .top_buttons {
+	display: flex;
+	gap: 72px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.top_button {
 	font-family: Gilroy-Bold;
 	font-size: 15px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-}
 
-.top_button {
 	padding: 15px 35px;
 	flex-shrink: 0;
 	border-radius: 50px;
@@ -79,13 +144,25 @@ a {
 }
 
 .top_link {
+	font-family: Gilroy-Bold;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
 	color: #aaa;
-	padding-left: 75px;
 }
 
 .brands {
 	padding-top: 97px;
 	padding-bottom: 97px;
+
+	display: flex;
+	gap: 46px;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: flex-start;
 }
 
 .brands_link {

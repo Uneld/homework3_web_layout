@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
 @font-face {
 	font-family: "Gilroy-SemiBold";
 	src: url("./fonts/GilroySemiBold.ttf") format("truetype");
@@ -160,7 +162,6 @@ a {
 
 	display: flex;
 	gap: 46px;
-	flex-direction: row;
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: flex-start;
@@ -168,4 +169,209 @@ a {
 
 .brands_link {
 	display: inline-block;
+}
+
+.about_us_content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 70px;
+	background: #fafafa;
+}
+
+.about_us_info {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.about_us_title {
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 20px;
+}
+
+.about_us_text {
+	color: #666;
+	font-family: Gilroy-Regular;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 24px */
+	margin-bottom: 35px;
+}
+
+.about_us_button {
+	font-family: Gilroy-Bold;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+	padding: 15px 31px;
+	border-radius: 50px;
+	background: #f25822;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+	color: #fff;
+}
+
+.features {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 60px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.features_item img {
+	width: 70px;
+	height: 70px;
+}
+
+.features_item {
+	padding: 40px 31px 25px 29px;
+	display: flex;
+	gap: 25px;
+	flex-direction: column;
+}
+
+.features_title {
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.features_text {
+	color: #666;
+	font-family: Gilroy-Regular;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 22.5px */
+}
+
+.features_link {
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 16.5px */
+}
+
+.features_shadow {
+	background: #fff;
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.services {
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+	background: #fafafa;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.sevices_title {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	align-items: center;
+}
+.sevices_title h1 {
+	color: #000;
+	text-align: center;
+	font-family: Inter;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.sevices_title p {
+	color: #888;
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%;
+	max-width: 740px;
+}
+
+.services_grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+.services_item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 32px;
+	background: #fff;
+}
+
+.services_shadow {
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.services_item_info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 34px 34px 34px;
+}
+
+.services_item_title {
+	color: #000;
+	text-align: center;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+
+	margin-bottom: 16px;
+}
+
+.services_item_text {
+	margin-bottom: 24px;
+
+	color: #666;
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 24px */
+}
+
+.services_item_button {
+	padding: 16px 32px;
+
+	border-radius: 56px;
+	background: #f25822;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+
+	color: #fff;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+.services_item img {
+	width: 378px;
+	height: 284px;
 }
